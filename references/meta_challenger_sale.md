@@ -3,18 +3,18 @@
 > **Note:** The `---` dividers in this file are documentation section boundaries. When generating presentation output, use `---` only as slide boundary markers per SKILL.md format rules.
 
 ## Framework Overview
-**Origin:** Matthew Dixon & Brent Adamson, "The Challenger Sale" (2011). CEB (now Gartner) research across thousands of B2B sales reps found that "Challengers" -- reps who teach, tailor, and take control -- dramatically outperform other profiles in complex sales.
+**Inspired by:** Insight-led B2B sales methodology. Research across thousands of sales reps found that reps who lead with teaching, customize for context, and drive decisions dramatically outperform other profiles in complex sales.
 **Best For:** Complex B2B sales pitches, value-based selling, multi-stakeholder deals where the customer's current mental model is part of the problem
 **Audience:** Economic buyers, technical evaluators, procurement committees, and cross-functional buying groups
 **Duration:** 8-15 slides (20-40 minutes typical)
 
 ## Core Philosophy
-**Teach. Tailor. Take Control.**
+**Lead with insight. Customize for context. Drive to decision.**
 
 The three pillars:
-1. **Teach** -- Deliver a reframe that changes how the customer sees their problem. You are the expert, not the order-taker.
-2. **Tailor** -- Speak to the specific context of this customer, this industry, this stakeholder. Generic pitches fail.
-3. **Take Control** -- Guide the conversation toward a decision. Do not let consensus-seeking or price anxiety derail the commercial outcome.
+1. **Lead with Insight** -- Deliver a reframe that changes how the customer sees their problem. You are the expert, not the order-taker.
+2. **Customize for Context** -- Speak to the specific context of this customer, this industry, this stakeholder. Generic pitches fail.
+3. **Drive to Decision** -- Guide the conversation toward a decision. Do not let consensus-seeking or price anxiety derail the commercial outcome.
 
 **Critical Rule:** Your product does not appear until more than halfway through the deck. The first half is about the customer's world and the insight you bring.
 
@@ -22,9 +22,9 @@ The three pillars:
 
 ## Emotional Arc
 
-**Trajectory:** Neutral (warm-up) -> Positive (reframe "aha") -> Negative (rational drowning + emotional impact) -> Positive (solution + proof)
+**Trajectory:** Neutral (warm-up) -> Positive (reframe "aha") -> Negative (impact quantification + emotional impact) -> Positive (solution + proof)
 
-**Key transition:** The dip through rational drowning and emotional impact must be deep enough to create urgency but not so deep the audience becomes defensive.
+**Key transition:** The dip through impact quantification and emotional impact must be deep enough to create urgency but not so deep the audience becomes defensive.
 
 ---
 
@@ -72,7 +72,7 @@ The three pillars:
 
 ---
 
-### RATIONAL DROWNING (1-2 slides)
+### IMPACT QUANTIFICATION (1-2 slides)
 **Purpose:** Quantify the hidden costs, risks, or missed opportunities revealed by the reframe. Make the problem feel large, concrete, and measurable.
 
 **Content Requirements:**
@@ -137,7 +137,7 @@ The three pillars:
 
 **Content Requirements:**
 - Customer success story (ideally similar industry, scale, or problem)
-- Quantified results: before/after metrics in the same terms used during Rational Drowning
+- Quantified results: before/after metrics in the same terms used during Impact Quantification
 - Social proof: logos, quotes, analyst recognition
 - Concrete next steps with timeline and ownership
 
@@ -155,7 +155,7 @@ Before finalizing the Challenger Sale deck:
 - [ ] Warm-up demonstrates genuine customer knowledge (not generic industry slides)
 - [ ] Reframe introduces a genuinely surprising or counterintuitive insight
 - [ ] The insight is supported by credible third-party data
-- [ ] Rational drowning quantifies the problem with verifiable numbers
+- [ ] Impact quantification quantifies the problem with verifiable numbers
 - [ ] Emotional impact makes it personal without being manipulative
 - [ ] Value proposition is conceptually independent of your product
 - [ ] Solution maps directly to the new-way criteria
@@ -164,7 +164,7 @@ Before finalizing the Challenger Sale deck:
 **Framework Discipline:**
 - [ ] No product mentions before section 6 (Your Solution)
 - [ ] Reframe challenges the customer's existing mental model
-- [ ] At least one slide in Rational Drowning uses the customer's own scale (their revenue, headcount, etc.)
+- [ ] At least one slide in Impact Quantification uses the customer's own scale (their revenue, headcount, etc.)
 - [ ] Emotional Impact section contains no more than 2 slides
 - [ ] Value Proposition establishes evaluation criteria before showing solution
 - [ ] Next steps include a specific ask with timeline
@@ -176,7 +176,7 @@ Before finalizing the Challenger Sale deck:
 
 **Emotional Arc:**
 - [ ] The deck follows the NEUTRAL → POSITIVE → NEGATIVE → POSITIVE arc
-- [ ] The transition from reframe to rational drowning feels natural, not jarring
+- [ ] The transition from reframe to impact quantification feels natural, not jarring
 - [ ] The transition from emotional impact to value proposition provides genuine relief
 - [ ] The closing creates forward momentum, not just information delivery
 
@@ -187,7 +187,7 @@ Before finalizing the Challenger Sale deck:
 ### Enterprise SaaS Sale
 1. Warm-up: Customer's digital transformation journey and current tech stack challenges
 2. Reframe: "The integration tax is costing you more than the software itself"
-3. Rational Drowning: Quantify integration costs, data silos, and manual workarounds
+3. Impact Quantification: Quantify integration costs, data silos, and manual workarounds
 4. Emotional Impact: IT team burnout, competitive speed disadvantage
 5. Value Proposition: Unified platform approach vs. best-of-breed patchwork
 6. Solution: Platform capabilities mapped to integration pain points
@@ -196,7 +196,7 @@ Before finalizing the Challenger Sale deck:
 ### Professional Services Sale
 1. Warm-up: Client's strategic priorities and organizational pressures
 2. Reframe: "Your biggest barrier isn't strategy -- it's execution capacity"
-3. Rational Drowning: Cost of delayed initiatives, opportunity cost of internal bandwidth
+3. Impact Quantification: Cost of delayed initiatives, opportunity cost of internal bandwidth
 4. Emotional Impact: Leadership credibility at stake; board expectations
 5. Value Proposition: Embedded partnership model vs. traditional project-based consulting
 6. Solution: Team structure, methodology, and delivery approach
@@ -205,7 +205,7 @@ Before finalizing the Challenger Sale deck:
 ### Platform / Marketplace Sale
 1. Warm-up: Customer's ecosystem complexity and partner/supplier dynamics
 2. Reframe: "Bilateral relationships can't scale -- network effects require a different model"
-3. Rational Drowning: Transaction costs, information asymmetry losses, coordination overhead
+3. Impact Quantification: Transaction costs, information asymmetry losses, coordination overhead
 4. Emotional Impact: Market share erosion as competitors build network advantages
 5. Value Proposition: Platform economics and the "new rules" of ecosystem participation
 6. Solution: Platform capabilities, onboarding model, and ecosystem benefits
@@ -218,7 +218,7 @@ Before finalizing the Challenger Sale deck:
 **Standard Decks (10-13 slides):**
 - Warm-up: 1-2 slides
 - Reframe: 1-2 slides (the centerpiece -- invest here)
-- Rational drowning: 1-2 slides
+- Impact quantification: 1-2 slides
 - Emotional impact: 1 slide
 - Value proposition: 1 slide
 - Solution: 2-3 slides
@@ -227,7 +227,7 @@ Before finalizing the Challenger Sale deck:
 **Compact Decks (5-9 slides):**
 - Warm-up: 1 slide (industry context + customer-specific observation)
 - Reframe: 1 slide (combine conventional view and new insight)
-- Rational drowning + emotional impact: 1 slide combined
+- Impact quantification + emotional impact: 1 slide combined
 - Value proposition: 1 slide (criteria only)
 - Solution: 1-2 slides (overview + top capability)
 - Proof + next steps: 1 combined slide
@@ -239,7 +239,7 @@ Before finalizing the Challenger Sale deck:
 **For Different Buyer Types:**
 
 *Economic Buyer (CFO, CEO):*
-- Emphasize rational drowning with financial metrics (ROI, payback period, NPV)
+- Emphasize impact quantification with financial metrics (ROI, payback period, NPV)
 - Value proposition should frame evaluation criteria in financial terms
 
 *Technical Buyer (CTO, VP Engineering):*
@@ -272,7 +272,7 @@ Before finalizing the Challenger Sale deck:
 - **Slide 3:** "Most manufacturers focus on negotiating better prices — but the real cost driver is invisible coordination waste" *[Pyramid pattern]*
 - **Slide 4:** "Research across 200 manufacturers shows coordination overhead consumes 12-18% of total procurement spend" *[Pyramid pattern]*
 
-**RATIONAL DROWNING (Slides 5-6)**
+**IMPACT QUANTIFICATION (Slides 5-6)**
 - **Slide 5:** "For a company of Apex's size, hidden coordination costs likely total $2.1M-$3.4M annually" *[What-So What-Now What pattern]*
 - **Slide 6:** "Each year without visibility compounds the problem: supplier risk, margin erosion, and talent drain" *[What-So What-Now What pattern]*
 
@@ -301,7 +301,7 @@ Before finalizing the Challenger Sale deck:
 |---------|----------------|--------------------|----|
 | **Warm-up** | SCQA Micro-Narrative (E) | Pyramid Principle (A) | Establishes shared context through structured framing |
 | **Reframe** | Pyramid Principle (A) | SCQA Micro-Narrative (E) | States the new insight as a conclusion, then supports it |
-| **Rational Drowning** | What-So What-Now What (B) | MECE Decomposition (D) | Presents data, interprets impact, and implies action needed |
+| **Impact Quantification** | What-So What-Now What (B) | MECE Decomposition (D) | Presents data, interprets impact, and implies action needed |
 | **Emotional Impact** | Monroe's Visualization (G) | BAB Mini-Story (F) | Paints vivid picture of consequences (with/without action) |
 | **Value Proposition** | Problem-Solution-Benefit (J) | Pyramid Principle (A) | Maps the new approach to the identified problem |
 | **Your Solution** | FAB (C) | Pyramid Principle (A) | Translates each feature into customer-relevant advantage and benefit |

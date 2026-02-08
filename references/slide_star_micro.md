@@ -183,7 +183,7 @@ When Situation and Task fit in one line, merge them:
 | **Challenger Sale** | Proof section | PRIMARY | After presenting solution, micro-cases prove it works in real world |
 | **PAS** | Solution (proof) | PRIMARY | After presenting solution, micro-cases demonstrate it actually works |
 
-**Also ALTERNATIVE in:** AIDA Interest, Three-Act Act 2, Challenger Rational Drowning, Pyramid Evidence, SCQA Support, WSWNW Now What, Monroe Satisfaction, 5 Whys Countermeasures.
+**Also ALTERNATIVE in:** AIDA Interest, Three-Act Act 2, Challenger Impact Quantification, Pyramid Evidence, SCQA Support, WSWNW Now What, Monroe Satisfaction, 5 Whys Countermeasures.
 
 ---
 

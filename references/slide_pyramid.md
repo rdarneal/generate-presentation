@@ -6,7 +6,7 @@
 
 **Designation:** Pattern A (Layer 2 -- Slide-Level Pattern)
 **Concept:** Every slide leads with a conclusion-stating action title, supported by evidence in the body that proves the title's claim.
-**Origin:** Barbara Minto / McKinsey & Company
+**Inspired by:** Answer-first executive communication principles widely practiced in management consulting
 **Best For:** Executive briefings, strategy recommendations, data-driven analysis, any slide where the audience needs the "so what" instantly.
 
 **When to Use:**
@@ -199,7 +199,7 @@ Example: "Rising CAC confirms channel saturation, requiring pivot to organic acq
 | **5 Whys** | Root Cause / Countermeasures / Implementation | PRIMARY | Root cause is a conclusion; countermeasures state recommended actions |
 | **Monroe's Sequence** | Action | PRIMARY | Action steps are conclusions -- natural Pyramid fit |
 
-**Also ALTERNATIVE in:** SCQA Situation/Complication, WSWNW What, Challenger Warm-up/Rational Drowning/Solution, AIDA Interest/Desire/Action, PAS all sections, Monroe Need/Satisfaction, Three-Act Act 1/Act 3, STAR Situation, 5 Whys Problem Statement.
+**Also ALTERNATIVE in:** SCQA Situation/Complication, WSWNW What, Challenger Warm-up/Impact Quantification/Solution, AIDA Interest/Desire/Action, PAS all sections, Monroe Need/Satisfaction, Three-Act Act 1/Act 3, STAR Situation, 5 Whys Problem Statement.
 
 **Not typically used for:** Emotional/narrative slides, hook slides, or purpose-built pattern sections (5 Whys cascade, Monroe Visualization).
 

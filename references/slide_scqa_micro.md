@@ -6,7 +6,7 @@
 
 **Designation:** Pattern E (Layer 2 -- Slide-Level Pattern)
 **Concept:** Compress the full SCQA (Situation-Complication-Question-Answer) narrative structure into a single slide to frame a point, introduce an argument, or set up a section.
-**Origin:** Barbara Minto's SCQA framework (McKinsey & Company), adapted from deck-level architecture to individual slide design.
+**Inspired by:** Problem-framing narrative techniques widely used in management consulting, adapted from deck-level architecture to individual slide design.
 **Best For:** Section openers, argument framing, executive summary slides, problem introductions, transition slides.
 
 **When to Use:**

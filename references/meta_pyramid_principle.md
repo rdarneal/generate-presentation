@@ -3,7 +3,7 @@
 > **Note:** The `---` dividers in this file are documentation section boundaries. When generating presentation output, use `---` only as slide boundary markers per SKILL.md format rules.
 
 ## Framework Overview
-**Origin:** Barbara Minto, McKinsey & Company  
+**Inspired by:** Answer-first executive communication principles widely practiced in management consulting
 **Best For:** Executive briefings, strategy recommendations, board communications  
 **Audience:** C-suite, board members, senior decision-makers  
 **Duration:** 5-15 slides (10-30 minutes typical)

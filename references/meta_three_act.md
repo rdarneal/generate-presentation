@@ -3,7 +3,7 @@
 > **Note:** The `---` dividers in this file are documentation section boundaries. When generating presentation output, use `---` only as slide boundary markers per SKILL.md format rules.
 
 ## Framework Overview
-**Origin:** Classical dramatic storytelling (Aristotle, Syd Field); adapted for business presentations by Nancy Duarte (*Resonate*), Garr Reynolds, and others
+**Inspired by:** Classical dramatic storytelling (Aristotle, Syd Field); adapted for business presentations by contemporary presentation design thought leaders
 **Best For:** Keynotes, vision talks, transformation stories, brand narratives, customer success journeys
 **Audience:** General audiences, conferences, all-hands meetings, investors (narrative-driven pitches), customers
 **Duration:** 5-15 slides (10-30 minutes typical)
@@ -11,7 +11,7 @@
 ## Core Philosophy
 **Make the audience the hero.** Your presentation is not about your product, your company, or your data. It is about the audience's world, their struggle, and their transformation. Your solution is the guide that makes the hero's journey possible.
 
-**Key Insight (Duarte's Sparkline):** Alternate between "what is" (current pain) and "what could be" (aspirational future). The contrast creates the tension that pulls the audience forward.
+**Key Insight:** Alternate between "what is" (current pain) and "what could be" (aspirational future). The contrast creates the tension that pulls the audience forward.
 
 ---
 
@@ -21,7 +21,7 @@
 
 **Key transition:** The crisis must feel genuine and specific before the resolution, or the breakthrough rings hollow.
 
-**Sparkline rule:** Alternate between "what is" (current pain) and "what could be" (aspirational future) throughout Act 2. No more than 3-4 slides without a shift.
+**Contrast rule:** Alternate between "what is" (current pain) and "what could be" (aspirational future) throughout Act 2. No more than 3-4 slides without a shift.
 
 ---
 
@@ -122,7 +122,7 @@
 - Specific obstacles, not abstractions
 - Failed or incomplete first attempts (authenticity builds trust)
 - Evidence that the problem is harder than initially expected
-- Sparkline: alternate between the challenge ("what is") and glimpses of the goal ("what could be")
+- Alternate between the challenge ("what is") and glimpses of the goal ("what could be")
 
 **Title Patterns:**
 *"Our first response solved the symptom but missed the disease"*
@@ -273,9 +273,9 @@ Before finalizing, verify:
 - [ ] Audience can see themselves in the story
 - [ ] Vulnerability and failure are included authentically
 
-**Sparkline Execution:**
+**Contrast Arc Execution:**
 - [ ] "What is" and "what could be" alternate throughout Act 2
-- [ ] No more than 3-4 slides in a row without a sparkline shift
+- [ ] No more than 3-4 slides in a row without a contrast shift
 - [ ] The gap between "what is" and "what could be" widens as stakes increase
 - [ ] Act 3 collapses the gap permanently
 
@@ -323,7 +323,7 @@ Before finalizing, verify:
 - Act 1: 2-3 slides (hero's world + inciting incident, combine status quo into hero's world)
 - Act 2: 3-5 slides (rising obstacles, midpoint revelation, crisis — combine increasing stakes with adjacent sections)
 - Act 3: 2-3 slides (climax + results + call to action, combine denouement with results)
-- The sparkline should oscillate 2-3 times
+- The contrast arc should oscillate 2-3 times
 
 **Compact Decks (3-7 slides):**
 - Act 1: 1-2 slides (setup + inciting incident on one slide)
@@ -332,7 +332,7 @@ Before finalizing, verify:
 
 **Extended Decks (13-15 slides):**
 - Act 1: 2-3 slides (richer scene-setting)
-- Act 2: 5-6 slides (more sparkline oscillations)
+- Act 2: 5-6 slides (more contrast oscillations)
 - Act 3: 3-4 slides (more proof points and customer voices)
 - Maximum 15 slides; move additional material to appendix
 
@@ -370,11 +370,11 @@ Before finalizing, verify:
 ### Act 2: Confrontation (6 slides)
 | Slide | Title | Pattern | Content |
 |-------|-------|---------|---------|
-| 4 | "The first attempt to fix the problem made it worse — an $8M EHR integration added 40 minutes to nurse workflows" | BAB Mini-Story | Early failure + vision of what coordinated care could look like (sparkline) |
+| 4 | "The first attempt to fix the problem made it worse — an $8M EHR integration added 40 minutes to nurse workflows" | BAB Mini-Story | Early failure + vision of what coordinated care could look like (contrast arc) |
 | 5 | "The real problem was not the technology — it was who they were building it for" | SCQA Micro (Reframe) | **Midpoint revelation:** Building for administrators, not patients or clinicians |
 | 6 | "While Meridian rebuilt, competitors launched their own platforms and the pilot results were mixed at best" | Narrative | Rising stakes: competitive pressure, adoption at 34%, physicians vocal critics |
 | 7 | "In June, the board called an emergency review — the recommendation: shut down the initiative" | Narrative | **Crisis:** $12M spent, mixed results, real possibility of failure |
-| 8 | "One data point saved the program: patients in the pilot had 41% fewer readmissions" | Pyramid (action title) | The data that earned 90 more days (sparkline: what could be) |
+| 8 | "One data point saved the program: patients in the pilot had 41% fewer readmissions" | Pyramid (action title) | The data that earned 90 more days (contrast: what could be) |
 | 9 | "This time, they did something different: they asked the nurses to lead" | SCQA Micro | **Climax:** The breakthrough decision that changed the trajectory |
 
 ### Act 3: Resolution (4 slides)
@@ -387,7 +387,7 @@ Before finalizing, verify:
 
 **Total:** 13 slides
 **Duration:** ~20 minutes
-**Sparkline oscillations:** 3 across Act 2
+**Contrast oscillations:** 3 across Act 2
 
 ---
 
@@ -402,7 +402,7 @@ Before finalizing, verify:
 | **Act 2: Midpoint Revelation** | Cascading 5 Whys | SCQA Micro-Narrative | Reframes the underlying problem |
 | **Act 2: Increasing Stakes** | BAB Mini-Story | Monroe's Visualization | Escalates tension through contrast |
 | **Act 2: Crisis** | Narrative / Monroe's Visualization | BAB Mini-Story | Delivers emotional low point |
-| **Act 2: Sparkline "What Could Be"** | Monroe's Visualization | Narrative | Paints the aspirational future |
+| **Act 2: Contrast "What Could Be"** | Monroe's Visualization | Narrative | Paints the aspirational future |
 | **Act 3: Climax** | STAR Micro-Case | Narrative | Shows the breakthrough with specifics |
 | **Act 3: Results** | STAR Micro-Case / Pyramid Principle | BAB Mini-Story (quantified) | Proves the transformation with evidence |
 | **Act 3: Denouement** | Monroe's Visualization | Narrative | Shows the new world and forward vision |

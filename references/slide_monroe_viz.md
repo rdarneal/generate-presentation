@@ -180,7 +180,7 @@ Example: "Without action, we enter 2027 with a $3.1M revenue gap and 40% fewer s
 | Meta-Flow | Section | Fit | Rationale |
 |-----------|---------|-----|-----------|
 | **Monroe's Motivated Sequence** | Visualization | PRIMARY | Native home of the pattern |
-| **Challenger Sale** | Emotional Impact | PRIMARY | After Rational Drowning quantifies the problem, Visualization makes it visceral |
+| **Challenger Sale** | Emotional Impact | PRIMARY | After Impact Quantification quantifies the problem, Visualization makes it visceral |
 | **PAS** | Agitate | PRIMARY | Amplifies consequences -- negative or contrast visualization is the sharpest tool |
 | **Three-Act Structure** | Act 3 Resolution | PRIMARY | Positive visualization paints the "new normal" after the climax |
 

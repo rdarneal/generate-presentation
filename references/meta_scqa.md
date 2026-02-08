@@ -3,7 +3,7 @@
 > **Note:** The `---` dividers in this file are documentation section boundaries. When generating presentation output, use `---` only as slide boundary markers per SKILL.md format rules.
 
 ## Framework Overview
-**Origin:** Barbara Minto, McKinsey & Company (Minto Pyramid opening framework)
+**Inspired by:** Problem-framing narrative techniques widely used in management consulting and strategic communication
 **Best For:** Strategy decks, consulting recommendations, executive briefings, problem framing
 **Audience:** C-suite, senior leaders, cross-functional stakeholders needing alignment
 **Duration:** 5-15 slides (10-30 minutes typical)

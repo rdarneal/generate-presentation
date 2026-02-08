@@ -184,7 +184,7 @@ Example: "Rising CAC confirms channel saturation -- shift budget to organic by N
 | **What-So What-Now What** | What section | PRIMARY | The meta-flow's signature pattern |
 | **Pyramid Principle** | Evidence slides | PRIMARY | Ensures evidence slides include interpretation and action |
 | **SCQA** | Complication section | PRIMARY | Complication slides show what changed; WSWNW ensures interpretation |
-| **Challenger Sale** | Rational Drowning | PRIMARY | Each hidden cost is interpreted and linked to urgency |
+| **Challenger Sale** | Impact Quantification | PRIMARY | Each hidden cost is interpreted and linked to urgency |
 | **Monroe's Motivated Sequence** | Need section | PRIMARY | Need slides present evidence with interpretation |
 | **STAR** | Result section | PRIMARY | Results are interpreted and connected to next steps |
 

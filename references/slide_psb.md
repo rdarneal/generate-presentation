@@ -181,7 +181,7 @@ Read the slide as a single sentence: "Because [Problem], we should [Solution], w
 | **WSWNW** | Now What | PRIMARY | Each recommendation in Now What is a natural PSB unit |
 | **5 Whys** | Countermeasures | PRIMARY | Each countermeasure: root cause problem, countermeasure solution, expected benefit |
 
-**Also ALTERNATIVE in:** PAS Problem, AIDA Action, Monroe Need/Action, Challenger Rational Drowning/Solution/Proof, SCQA Answer/Next Steps, Pyramid Supporting Pillars/Next Steps, WSWNW So What, Three-Act Act 3 Resolution, STAR Action/Result, 5 Whys Implementation.
+**Also ALTERNATIVE in:** PAS Problem, AIDA Action, Monroe Need/Action, Challenger Impact Quantification/Solution/Proof, SCQA Answer/Next Steps, Pyramid Supporting Pillars/Next Steps, WSWNW So What, Three-Act Act 3 Resolution, STAR Action/Result, 5 Whys Implementation.
 
 ---
 

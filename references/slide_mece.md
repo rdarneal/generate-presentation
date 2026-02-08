@@ -6,7 +6,7 @@
 
 **Designation:** Pattern D (Layer 2 -- Slide-Level Pattern)
 **Concept:** Break a complex topic into mutually exclusive, collectively exhaustive categories on a single slide.
-**Origin:** McKinsey & Company structuring principle, foundational to management consulting methodology.
+**Inspired by:** Structured thinking principles foundational to management consulting methodology.
 **Best For:** Issue structuring, revenue/cost breakdowns, market segmentation, strategic option analysis, argument organization.
 
 **When to Use:**
@@ -172,7 +172,7 @@ The title must state what is being decomposed and the key finding or insight.
 | **5 Whys** | Root Cause / Countermeasures | PRIMARY | Categorize root causes into MECE groups; organize countermeasures into MECE categories |
 | **What-So What-Now What** | Now What | PRIMARY | Structure recommendations into MECE buckets |
 
-**Also ALTERNATIVE in:** Pyramid Evidence, WSWNW What, Challenger Rational Drowning/Solution, PAS Agitate/Solution, AIDA Interest, Three-Act Act 2, Monroe Need, STAR Action.
+**Also ALTERNATIVE in:** Pyramid Evidence, WSWNW What, Challenger Impact Quantification/Solution, PAS Agitate/Solution, AIDA Interest, Three-Act Act 2, Monroe Need, STAR Action.
 
 ---
 

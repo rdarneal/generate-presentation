@@ -5,6 +5,10 @@ description: Generate professional slide decks using proven consulting, sales, s
 
 # Presentation Framework Skill
 
+## Disclaimer
+
+Framework names referenced in this skill (e.g., Pyramid Principle, Challenger Sale, SCQA, MECE, and others) are the intellectual property of their respective creators and are referenced here for illustrative and reference purposes. The templates in this project are independently developed interpretations, not reproductions of original source material. This project is not affiliated with or endorsed by those authors or organizations.
+
 ## Overview
 
 This skill enables Claude to create professional presentations using proven frameworks from consulting, sales, storytelling, and problem-solving domains. It employs a **two-layer compositional system** that separates deck architecture from slide design.
@@ -227,7 +231,7 @@ Read the relevant reference files before generating slides:
 ### 4. Challenger Sale
 **Type:** Teaching sales approach  
 **Use:** Complex B2B, reframing customer thinking  
-**Structure:** Warm-up -> Reframe -> Rational drowning -> Emotional impact -> Value prop -> Solution -> Proof  
+**Structure:** Warm-up -> Reframe -> Impact quantification -> Emotional impact -> Value prop -> Solution -> Proof  
 **Key Rule:** Keep product out of early sections; teach before selling  
 **Slide Count:** 8-15 slides
 
@@ -349,7 +353,7 @@ Read the relevant reference files before generating slides:
 | **Pyramid Principle** | All sections: Pyramid Principle slides + MECE for structure |
 | **SCQA** | Situation: SCQA Micro; Complication: WSWNW; Answer/Support: Pyramid |
 | **WSWNW** | Context: SCQA Micro; What/So What/Now What: WSWNW or Pyramid slides |
-| **Challenger** | Warm-up: SCQA Micro; Reframe: Pyramid; Drowning: WSWNW; Impact: Monroe Viz; Value Prop: PSB; Solution: FAB; Proof: BAB |
+| **Challenger** | Warm-up: SCQA Micro; Reframe: Pyramid; Impact Quantification: WSWNW; Emotional Impact: Monroe Viz; Value Prop: PSB; Solution: FAB; Proof: BAB |
 | **AIDA** | Attention: SCQA Micro; Interest: FAB; Desire: BAB/STAR; Action: PSB |
 | **PAS** | Problem: PSB; Agitate: WSWNW/Monroe Viz; Solution: FAB |
 | **Three-Act** | Setup: SCQA Micro; Confrontation: BAB/5 Whys; Resolution: Monroe Viz/STAR |
