@@ -206,6 +206,42 @@ Before finalizing:
 
 ---
 
+## Multi-Thread Adaptation
+
+When the input contains multiple parallel threads (e.g., 5 product lines with performance data, or 7 initiatives with metrics), adapt the WSWNW structure to maintain thread coherence. See SKILL.md "Multi-Thread Management" for strategy definitions.
+
+**Thread-per-Pillar WSWNW (2-5 threads):**
+
+| Section | Single-Thread (standard) | Multi-Thread Adaptation |
+|---|---|---|
+| **Context** | Analysis scope and framing | Scope + enumerate all threads being analyzed |
+| **What** | Key findings (data) | Overview finding per thread (1 slide summarizing all), then 1 slide per top-priority thread with detailed data |
+| **So What** | Interpretation of findings | Per-thread interpretation: what each thread's data means, organized by thread not by random insight |
+| **Now What** | Recommendations | Per-thread actions, then consolidated prioritization and roadmap |
+
+**Thread Tracking Rule:** Organize the What and So What sections so that findings and insights are **grouped by thread**, not scattered by topic. Each thread's What finding should connect directly to that thread's So What insight and that thread's Now What recommendation.
+
+**Example — 5 Product Lines Quarterly Review:**
+
+- **Context (1 slide):** "Q3 review covers all 5 product lines against annual targets"
+- **What (2-3 slides):**
+  - Overview: performance matrix of all 5 lines vs targets (1 slide)
+  - Deep dive: top 2 outliers with detailed data (1-2 slides)
+- **So What (3-4 slides):**
+  - Per-thread insight for each significant finding, grouped by product line
+  - Pattern slide: common themes across product lines (if applicable)
+- **Now What (2-3 slides):**
+  - Per-line recommendations for lines requiring action
+  - Consolidated roadmap with priorities, owners, and timeline
+
+**Multi-Thread Quality Check:**
+- [ ] Every thread from the Thread Registry appears in all three sections (What, So What, Now What)
+- [ ] No orphan findings: every thread's What connects to a So What and a Now What
+- [ ] Threads are grouped, not scattered — a reader can follow one thread's full arc without jumping between unrelated slides
+- [ ] Overview/matrix slides account for all threads, not just the top performers or worst performers
+
+---
+
 ## Adaptation Notes
 
 **Shorter Decks (5-8 slides):**

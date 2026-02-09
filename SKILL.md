@@ -105,6 +105,30 @@ IF input is a specific request with full context:
     1. Proceed directly to Step 1
 ```
 
+**Multi-Thread Detection (runs after Input Classification):**
+
+After classifying the input, check whether it contains multiple parallel items that each need narrative coverage throughout the deck.
+
+```
+IF input contains multiple parallel items (initiatives, products, recommendations, etc.):
+    1. Identify threads:
+       - Explicit lists: "7 initiatives," "5 product lines," "4 recommendations"
+       - Implicit parallels: topics that each have their own data, status, or analysis
+       - Comparison structures: items benchmarked against each other or a standard
+    2. Count threads and classify:
+       - 1 thread -> standard single-narrative flow (no special handling)
+       - 2-5 threads -> "manageable" — use Thread-per-Pillar strategy
+       - 6+ threads -> "complex" — use Tiered Grouping or Thread Matrix strategy
+    3. Create a Thread Registry:
+       - List each thread by name
+       - For each thread, extract: current state, gap/complication, recommendation
+       - Flag any threads with incomplete data (ask user to fill gaps)
+    4. Confirm thread list and priority ranking with user before proceeding
+
+IF input contains only a single topic or narrative:
+    Proceed normally — no thread management needed
+```
+
 **Content Prioritization (for long-form inputs):**
 
 When condensing a long document into a slide deck, prioritize content in this order:
@@ -118,6 +142,43 @@ When condensing a long document into a slide deck, prioritize content in this or
 **Density Rule:** Target 1 slide per 200-400 words of source content. A 3,000-word report yields roughly 8-15 slides.
 
 **Density vs. Ceiling:** When the density rule produces a slide count above 15, compress further by: (1) merging related findings into single slides, (2) moving supporting evidence to an appendix section, and (3) prioritizing the top 3-5 insights over comprehensive coverage. The 15-slide ceiling takes precedence over the density formula.
+
+**Multi-Thread Management (for inputs with 2+ parallel threads):**
+
+When Multi-Thread Detection identifies multiple threads (initiatives, products, recommendations, etc.), apply one of these strategies to ensure every thread maintains narrative coherence through the deck.
+
+**Strategy A — Thread-per-Pillar (2-5 threads, standard slide budgets):**
+- The outer meta-flow provides the shared narrative arc (shared Situation, shared Complication, shared Answer)
+- Each Support pillar is dedicated to ONE thread
+- Within each pillar, mirror the outer framework's logic for that thread:
+  - SCQA: each pillar shows that thread's situation, complication, and resolution
+  - WSWNW: each pillar shows that thread's data, interpretation, and action
+  - Pyramid: each pillar argues for that thread's recommendation with thread-specific evidence
+- The shared Answer slide includes a summary/ranking of all threads
+- Next Steps consolidates actions across all threads with clear ownership
+
+**Strategy B — Tiered Grouping (6+ threads, standard slide budgets):**
+- Rank threads by impact, urgency, or strategic importance
+- Tier 1 (top 2-3 threads): full Thread-per-Pillar treatment with individual pillar sections
+- Tier 2 (remaining threads): single summary slide per section using a comparison matrix
+- The shared Answer slide presents the tiered prioritization with rationale
+- Appendix includes full detail for Tier 2 threads
+
+**Strategy C — Thread Matrix (many threads, tight slide budgets):**
+- Each framework section uses a matrix/comparison layout tracking all threads
+- Situation: matrix of current state per thread
+- Complication: matrix of gaps/risks per thread
+- Answer: prioritized ranking of all threads
+- Support: 1-2 slides per priority tier with matrix evidence
+- Best for audiences who want comprehensive coverage in minimal slides
+
+**Strategy Selection Rule:**
+- Thread count <= 5 AND slide budget >= 10 -> Strategy A (Thread-per-Pillar)
+- Thread count > 5 AND slide budget >= 12 -> Strategy B (Tiered Grouping)
+- Thread count > 3 AND slide budget < 10 -> Strategy C (Thread Matrix)
+- When in doubt, ask the user: "Your input has [N] threads. Should I give each full treatment (longer deck) or prioritize the top items (shorter deck)?"
+
+**Thread Completeness Rule:** Every thread identified in the Thread Registry must appear in EVERY major section of the meta-flow (even if compressed to a single bullet in a matrix). No thread should appear in only one section and vanish from others.
 
 ---
 
@@ -171,6 +232,13 @@ Each meta-flow has recommended patterns per section. Use the **Pattern Compatibi
 - Answer -> Pyramid Principle pattern
 - Support -> Pyramid Principle + MECE patterns
 
+**Multi-Thread Pattern Mapping:**
+When using a multi-thread strategy (see Step 0), additional patterns become relevant:
+- **Thread overview slides:** Use MECE Decomposition (D) to show all threads in a structured breakdown
+- **Per-thread pillar slides:** Use the same pattern you would for single-thread Support, but scoped to one thread
+- **Comparison/matrix slides:** Use What-So What-Now What (B) with a matrix layout tracking metrics across threads
+- **Priority ranking slides:** Use Pyramid Principle (A) with the ranking as the action title
+
 ### Step 4: Load Reference Templates
 Read the relevant reference files before generating slides:
 - Read `references/meta_[flow].md` for the selected meta-flow's detailed section sequence, slide counts, and section-by-section guidance
@@ -192,6 +260,13 @@ Read the relevant reference files before generating slides:
 - Are slide patterns appropriate for content type?
 - Would audience get main message from titles alone?
 - Is evidence quantified where possible?
+
+**Thread Completeness (for multi-thread inputs):**
+- Does every thread from the Thread Registry appear in every major section?
+- Are threads consistently named throughout (no thread called "Initiative A" in Situation and "the first project" in Support)?
+- Does the Answer slide account for ALL threads (even if some are deprioritized)?
+- Could a reader trace any single thread from start to finish through the deck?
+- Are threads that received Tier 2 / summary treatment still present (not silently dropped)?
 
 **Slide Format Compliance:**
 - Every slide starts with a single `#` heading (the action title)
@@ -559,6 +634,13 @@ Average enterprise contract is $240K vs $18K for SMB -- a 13x difference
 - Data without interpretation (naked WHAT without SO WHAT)
 - Multiple patterns fighting on one slide
 - MECE violations (overlapping or incomplete categories)
+
+### Multi-Thread Mistakes
+- Scattering threads randomly across sections instead of tracking each one through the full narrative
+- Letting the "loudest" thread (most data, most dramatic) dominate while others vanish
+- Treating multi-thread input as a single narrative — producing one Situation that only covers 3 of 7 threads
+- Inconsistent thread naming (switching between labels makes threads hard to follow)
+- Failing to prioritize when thread count exceeds slide budget — trying to cover all equally and covering none well
 
 ### Execution Mistakes
 - Too many bullets (>5 per slide)

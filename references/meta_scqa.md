@@ -257,6 +257,54 @@ Before finalizing:
 
 ---
 
+## Multi-Thread Adaptation
+
+When the input contains multiple parallel threads (e.g., 7 initiatives benchmarked against industry standards), adapt the SCQA structure to maintain thread coherence. See SKILL.md "Multi-Thread Management" for strategy definitions.
+
+**Thread-per-Pillar SCQA (2-5 threads):**
+
+| Section | Single-Thread (standard) | Multi-Thread Adaptation |
+|---|---|---|
+| **Situation** | Shared context about the landscape | Shared context + brief current-state snapshot of each thread |
+| **Complication** | Single disruption or tension | Overview of gaps/risks across ALL threads (summary slide), then optional 1 slide showing the pattern or common theme |
+| **Question** | One strategic question | "How should we prioritize and address these [N] gaps?" |
+| **Answer** | One recommendation | Prioritized ranking of all threads with rationale for ordering |
+| **Support** | 2-3 MECE argument pillars | Each pillar = one thread (or priority tier). Within each pillar, show that thread's specific situation, complication, and resolution |
+| **Next Steps** | Consolidated implementation | Consolidated across all threads, grouped by timeline |
+
+**Tiered Grouping SCQA (6+ threads):**
+
+Use Tiered Grouping (Strategy B) when thread count exceeds 5. Rank threads by impact/urgency, give Tier 1 (top 2-3) full pillar treatment, and cover Tier 2 threads via summary matrix slides.
+
+**Example — 7 Initiatives Benchmarked Against Industry Standards:**
+
+- **Situation (1 slide):** "Our organization operates across 7 capability areas; industry benchmarks have shifted significantly in the past 18 months"
+  - Matrix: 7 initiatives x current state summary
+- **Complication (1-2 slides):** "Five of seven capability areas now fall below industry median, with three in the bottom quartile"
+  - Gap matrix: 7 initiatives x gap severity, ranked
+- **Question (1 slide):** "Which capability gaps should we close first, and what investment is required?"
+- **Answer (1 slide):** "Prioritize Initiatives C, A, and F based on business impact and feasibility — projected to close 80% of the gap within 12 months"
+  - Tier 1: C, A, F (full treatment in Support)
+  - Tier 2: B, D, G, E (summary treatment)
+- **Support — Tier 1 pillars (2 slides each = 6 slides):**
+  - Pillar: Initiative C — current state vs benchmark, root cause of gap, recommended action, expected impact
+  - Pillar: Initiative A — same structure
+  - Pillar: Initiative F — same structure
+- **Support — Tier 2 summary (1 slide):**
+  - Matrix: B, D, G, E with gap, recommended action, timeline, estimated cost
+- **Next Steps (1 slide):** Consolidated roadmap across all 7, with Phase 1 (Tier 1) and Phase 2 (Tier 2)
+
+**Slide Count:** 14 slides (within 15-slide ceiling)
+
+**Multi-Thread Quality Check:**
+- [ ] Every initiative from the input appears in the Complication gap assessment
+- [ ] Every initiative appears in the Answer (even if deprioritized)
+- [ ] Tier 1 initiatives each have a complete S-C-resolution arc within their Support pillar
+- [ ] Tier 2 initiatives are present in the summary slide (not silently dropped)
+- [ ] A reader can trace any single initiative from Situation through Next Steps
+
+---
+
 ## Adaptation Notes
 
 **Standard Decks (8-12 slides):**

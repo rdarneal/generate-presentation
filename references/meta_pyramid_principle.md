@@ -286,6 +286,52 @@ Before finalizing:
 
 ---
 
+## Multi-Thread Adaptation
+
+When the input contains multiple parallel threads that each require a recommendation (e.g., 4 strategic initiatives each needing investment approval), adapt the Pyramid structure to maintain thread coherence. See SKILL.md "Multi-Thread Management" for strategy definitions.
+
+**Thread-per-Pillar Pyramid (2-5 threads):**
+
+| Section | Single-Thread (standard) | Multi-Thread Adaptation |
+|---|---|---|
+| **Executive Summary** | One recommendation | Prioritized list of all thread recommendations with overall investment/impact summary |
+| **Context** | Shared background | Shared context + enumerate all threads |
+| **Argument Blocks** | 2-3 MECE arguments supporting one recommendation | Each argument block = one thread. Within each block, the argument header states that thread's recommendation, and evidence slides support it |
+| **Closing** | Consolidated next steps | Implementation roadmap across all threads, phased by priority |
+
+**MECE Application to Threads:** The threads themselves should be MECE — mutually exclusive (each covers a distinct area) and collectively exhaustive (together they cover the full scope of the input). If threads overlap, consolidate them before building the deck.
+
+**Slide Budget Management:** With multiple threads, slide count pressure increases. Limit each thread's argument block to 1 header + 1 evidence slide. If more depth is needed, use appendix slides per thread.
+
+**Example — 4 Strategic Initiatives Requiring Approval:**
+
+- **Executive Summary (1 slide):** "We recommend approving all four initiatives in a phased sequence — total investment of $12M over 18 months with projected $45M return"
+  - Ranked list: Initiative B (highest ROI, fastest), Initiative D, Initiative A, Initiative C
+- **Context (1 slide):** "Annual planning identified four capability gaps; each initiative addresses a distinct gap"
+- **Argument Block — Initiative B (2 slides):**
+  - Header: "Initiative B closes the automation gap and delivers $18M in annual savings"
+  - Evidence: current manual cost, automation benchmark, implementation feasibility
+- **Argument Block — Initiative D (2 slides):**
+  - Header: "Initiative D modernizes the data platform, enabling Initiatives A and C"
+  - Evidence: dependency analysis, platform comparison, migration timeline
+- **Argument Block — Initiative A (2 slides):**
+  - Header: "Initiative A expands enterprise coverage into the fastest-growing segment"
+  - Evidence: market sizing, competitive window, revenue projection
+- **Argument Block — Initiative C (1 slide, compressed):**
+  - Header: "Initiative C addresses compliance risk at minimal incremental cost"
+  - Evidence: regulatory timeline, cost of non-compliance, implementation scope
+- **Closing (2 slides):** Phased roadmap (B first, then D, then A+C in parallel) + decision request
+
+**Slide Count:** 12 slides
+
+**Multi-Thread Quality Check:**
+- [ ] Executive Summary accounts for ALL threads with clear prioritization
+- [ ] Each thread's argument block is self-contained — a reader could understand one thread's case without reading the others
+- [ ] Threads are MECE: no overlap in scope, collectively covering the full input
+- [ ] Dependencies between threads are explicitly stated (e.g., "Initiative D enables A and C")
+
+---
+
 ## Adaptation Notes
 
 **Standard Decks (8-12 slides):**
