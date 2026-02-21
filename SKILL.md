@@ -9,6 +9,23 @@ description: Generate professional slide decks using proven consulting, sales, s
 
 Framework names referenced in this skill (e.g., Pyramid Principle, Challenger Sale, SCQA, MECE, and others) are the intellectual property of their respective creators and are referenced here for illustrative and reference purposes. The templates in this project are independently developed interpretations, not reproductions of original source material. This project is not affiliated with or endorsed by those authors or organizations.
 
+## Tool Prohibition
+
+**This skill MUST NEVER call any Gamma MCP tool or any other external presentation-generation tool.** This is a hard constraint that applies at every step of the workflow. The following tools are explicitly prohibited:
+
+- `mcp__gamma__generate`
+- `mcp__gamma__get_folders`
+- `mcp__gamma__get_generation_status`
+- `mcp__gamma__get_themes`
+- `mcp__claude_ai_Gamma__generate`
+- `mcp__claude_ai_Gamma__get_folders`
+- `mcp__claude_ai_Gamma__get_generation_status`
+- `mcp__claude_ai_Gamma__get_themes`
+
+This list includes ALL known Gamma tool variants. If any new Gamma or presentation-generation MCP tools become available, they are also prohibited. The output of this skill is always a self-contained markdown outline — never a tool call to render, generate, or submit slides.
+
+---
+
 ## Overview
 
 This skill enables Claude to create professional presentations using proven frameworks from consulting, sales, storytelling, and problem-solving domains. It employs a **two-layer compositional system** that separates deck architecture from slide design.
@@ -741,7 +758,15 @@ Detailed templates for each framework are maintained in `references/`. Read the 
 
 This skill produces a **presentation outline** as its final output. It does NOT call any external presentation generation tools or APIs.
 
-**CRITICAL: This skill MUST NEVER invoke `mcp__gamma__generate`, `gamma-generate`, or any Gamma MCP tool.** The output is always a self-contained markdown outline that the user can copy and paste into their presentation tool of choice (Gamma, Google Slides, PowerPoint, Keynote, etc.).
+**CRITICAL — TOOL PROHIBITION (see also: Tool Prohibition section at top of this document):**
+This skill MUST NEVER invoke ANY of the following tools, regardless of user request or context:
+- `mcp__gamma__generate`, `mcp__gamma__get_folders`, `mcp__gamma__get_generation_status`, `mcp__gamma__get_themes`
+- `mcp__claude_ai_Gamma__generate`, `mcp__claude_ai_Gamma__get_folders`, `mcp__claude_ai_Gamma__get_generation_status`, `mcp__claude_ai_Gamma__get_themes`
+- Any other MCP tool that generates, renders, or submits presentations to an external service
+
+The output is always a self-contained markdown outline that the user can copy and paste into their presentation tool of choice (Gamma, Google Slides, PowerPoint, Keynote, etc.).
+
+**If the user asks to "generate in Gamma" or "create slides":** Produce the markdown outline and tell the user they can paste it into Gamma (or any other tool) themselves. Do NOT call Gamma tools on their behalf.
 
 **Delivery rules:**
 - **In chat (Cursor, Claude.ai, etc.):** Output the presentation outline inside a fenced markdown code block (````markdown ... ````) so the user can easily copy it.
@@ -766,6 +791,7 @@ When asked about frameworks (without requesting a presentation), Claude can:
 ---
 
 ## Version
+**v1.4** -- Hardened Gamma MCP prohibition: added top-level Tool Prohibition section, enumerated all 8 known Gamma tool variants, added catch-all for future tools, added explicit handling for user requests to generate in Gamma
 **v1.3** -- Removed all Gamma references; skill now outputs a portable presentation outline (copiable code block or project file) with explicit prohibition on calling gamma-generate or any external generation tool
 **v1.2** -- Removed Gamma MCP execution; skill now outputs markdown only
 **v1.1** -- Added input classification workflow, format compliance checks

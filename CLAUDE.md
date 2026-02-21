@@ -23,6 +23,10 @@ The skill uses a **two-layer compositional system**:
 - Frameworks use specific terminology: MECE (Mutually Exclusive, Collectively Exhaustive), SCQA (Situation-Complication-Question-Answer), AIDA (Attention-Interest-Desire-Action), PAS (Problem-Agitate-Solution), etc.
 - Action titles on slides should state the "so what" conclusion, not describe the content.
 
+## Tool Restrictions
+
+**NEVER call any Gamma MCP tool when working in this project.** This includes `mcp__gamma__generate`, `mcp__gamma__get_folders`, `mcp__gamma__get_generation_status`, `mcp__gamma__get_themes`, and their `mcp__claude_ai_Gamma__*` equivalents. The presentation skill outputs markdown outlines only — it must never trigger external slide generation. See the Tool Prohibition section in `SKILL.md` for the full rationale.
+
 ## Editing Guidelines
 
 Each **meta-flow template** follows the format established in `references/meta_pyramid_principle.md` and includes: framework overview, core philosophy, complete section sequence with slide counts, when to use/avoid, compatible slide patterns by section, quality checks, and usage examples with pattern mapping.
