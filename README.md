@@ -66,6 +66,18 @@ CLAUDE.md                   # Instructions for Claude Code when working in this 
 3. Claude will guide you through topic, audience, tone, and framework selection
 4. The skill outputs a structured markdown outline you can paste into any presentation tool
 
+### As a Claude Desktop Skill
+
+1. Zip `SKILL.md` and the `references/` folder together into a single archive
+2. In Claude Desktop, go to **Settings > Capabilities > Skills** and click **Add +**
+3. Upload the zip file
+
+Since Claude Desktop does not support slash commands, invoke the skill by saying:
+
+> Use the generate-presentation skill
+
+Claude will walk you through the same topic, audience, tone, and framework selection flow.
+
 ### As a Reference
 
 The framework templates in `references/` are useful on their own as guides for structuring presentations manually.
@@ -215,6 +227,54 @@ The result is a polished, visually designed deck: [View the full presentation on
 ![Slide 10 — Start building better decks today](images/10_Start-building-better-decks-today.png)
 
 </details>
+
+## Setting Up Gamma with Claude Code
+
+To render your markdown outlines as polished slide decks, connect the [Gamma](https://gamma.app) MCP server to Claude Code.
+
+### 1. Get a Gamma API key
+
+Go to [gamma.app/settings/api-keys](https://gamma.app/settings/api-keys) and generate an API key.
+
+### 2. Set the environment variable at system level
+
+Add `GAMMA_API_KEY` to your shell profile so it's available to all applications, including Claude Code.
+
+**zsh** (`~/.zshenv`):
+
+```sh
+export GAMMA_API_KEY="your-api-key-here"
+```
+
+**bash** (`~/.bash_profile` or `~/.bashrc`):
+
+```sh
+export GAMMA_API_KEY="your-api-key-here"
+```
+
+Then reload your shell (`source ~/.zshenv` or restart your terminal).
+
+### 3. Add the MCP server to Claude Code
+
+Add the following to the `mcpServers` object in your `~/.claude.json`:
+
+```json
+"gamma": {
+  "type": "http",
+  "url": "https://mcp.gamma.app/mcp",
+  "headers": {
+    "X-API-KEY": "${GAMMA_API_KEY}"
+  }
+}
+```
+
+Claude Code will resolve `${GAMMA_API_KEY}` from your environment at runtime.
+
+### 4. Use it
+
+In Claude Desktop (or any Claude client with MCP support), paste a markdown outline from the skill and prompt:
+
+> Use gamma MCP 'generate' to turn the following outline into a presentation. Use the following parameters for 'generate'. textMode: preserve, format: presentation, image option source: pictographic, dimensions 16x9
 
 ## License
 
