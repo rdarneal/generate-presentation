@@ -1,5 +1,10 @@
 # generate-presentation
 
+[![GitHub release](https://img.shields.io/github/v/release/rdarneal/generate-presentation)](https://github.com/rdarneal/generate-presentation/releases)
+[![GitHub stars](https://img.shields.io/github/stars/rdarneal/generate-presentation)](https://github.com/rdarneal/generate-presentation/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/rdarneal/generate-presentation)](https://github.com/rdarneal/generate-presentation/network)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 A Claude AI skill for generating professional slide decks using proven consulting, sales, storytelling, and problem-solving frameworks.
 
 ## What This Is
@@ -57,7 +62,7 @@ CLAUDE.md                   # Instructions for Claude Code when working in this 
 1. Add this repository's `SKILL.md` to your Claude Code skill configuration
 2. Use `/generate-presentation` to invoke the skill
 3. Claude will guide you through topic, audience, tone, and framework selection
-4. The skill outputs structured slide content (or renders via Gamma if connected)
+4. The skill outputs a structured markdown outline you can paste into any presentation tool
 
 ### As a Reference
 
